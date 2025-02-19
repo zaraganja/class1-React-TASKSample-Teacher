@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Hide in WebKit browsers (Chrome, Safari) */
+  appearance: none;
+  width: 0;
+  height: 0;
+  background: gray;
+  border: none;
+}
+
+.range::-moz-range-thumb {
+  width: 0;
+  height: 0;
+  background: gray;
+  border: none;
+}
